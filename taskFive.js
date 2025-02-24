@@ -1,8 +1,8 @@
 // 1. Create an object `student` with the following properties:
 //    A - `firstName` (string)
 //    B - `lastName` (string)
-//    D - `age` (number)
-//    C - `grades` (an array of numbers representing test score
+//    C - `age` (number)
+//    D - `grades` (an array of numbers representing test score
 
 const student = {
     firstName: "Ali",
@@ -12,9 +12,9 @@ const student = {
 
 
     // 2. Add methods to the `student` object:
-    // - `fullName`: This method should return the student's full name by combining `firstName` and `lastName`.
-    // - `calculateAverage`: This method should return the average grade from the `grades` array.
-    // - `getStudentInfo`: This method should return a string like "Student: [fullName], Age: [age], Average Grade: [averageGrade]."
+    // A - `fullName`: This method should return the student's full name by combining `firstName` and `lastName`.
+    // B - `calculateAverage`: This method should return the average grade from the `grades` array.
+    // C - `getStudentInfo`: This method should return a string like "Student: [fullName], Age: [age], Average Grade: [averageGrade]."
 
     fullName: function (){
         return `${this.firstName} ${this.lastName}`;
